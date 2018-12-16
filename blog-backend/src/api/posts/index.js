@@ -7,8 +7,8 @@ const posts = new Router();
 // 컨트롤러에서는 백엔드 기능을 구현
 posts.get('/', postsCtrl.list);
 posts.post('/', postsCtrl.write);
-posts.get('/:id', postsCtrl.read);
-posts.delete('/:id', postsCtrl.remove);
-posts.patch('/:id', postsCtrl.update);
+posts.get('/:id', postsCtrl.checkObjectId, postsCtrl.read);
+posts.delete('/:id', postsCtrl.checkObjectId, postsCtrl.remove);
+posts.patch('/:id', postsCtrl.checkObjectId, postsCtrl.update);
 
 module.exports = posts;

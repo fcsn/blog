@@ -13,7 +13,7 @@ const {
 } = process.env;
 
 mongoose.Promise = global.Promise;
-mongoose.connect(mongoURI, {useNuewUrlParser: true}).then(() => {
+mongoose.connect(mongoURI, { useNuewUrlParser: true }).then(() => {
   console.log('connected to mongodb');
 }).catch((e) => {
   console.error(e);
