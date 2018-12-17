@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="871a2c75-b6f0-43cc-b641-89d5420ee0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../blog-frontend/src/containers/list/ListContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/list/PostList/PostList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/list/PostList/PostList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/lib/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/lib/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/pages/ListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/pages/ListPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/list/Pagination/Pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/list/Pagination/Pagination.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-frontend/src/store/modules/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/store/modules/list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,11 +44,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/api/posts/posts.ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1953">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="762">
+              <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -68,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.eslintrc.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="310">
+              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -177,12 +171,12 @@
       <workItem from="1544869101150" duration="6220000" />
       <workItem from="1544947334293" duration="5168000" />
       <workItem from="1544956344943" duration="597000" />
-      <workItem from="1545004557114" duration="306000" />
+      <workItem from="1545004557114" duration="838000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15941000" />
+    <option name="totallyTimeSpent" value="16473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -239,20 +233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/posts/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/posts/posts.ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1953">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="217">
@@ -269,8 +249,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.eslintrc.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="310">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/posts/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/api/posts/posts.ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="60" column="14" lean-forward="true" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="14" />
         </state>
       </provider>
     </entry>

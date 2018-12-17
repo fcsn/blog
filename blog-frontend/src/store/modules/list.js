@@ -9,8 +9,8 @@ const GET_POST_LIST = 'list/GET_POST_LIST';
 
 export const getPostList = createAction(GET_POST_LIST, api.getPostList, meta => meta)
 
-const ininitalState = Map({
-    post: List(),
+const initialState = Map({
+    posts: List(),
     lastPage: null
 });
 
@@ -24,4 +24,4 @@ export default handleActions({
                         .set('lastPage', parseInt(lastPage, 10));
         }
     })
-}, ininitalState)
+}, initialState)
