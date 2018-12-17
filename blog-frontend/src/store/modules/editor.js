@@ -5,11 +5,17 @@ import { pender } from 'redux-pender';
 
 import * as api from 'lib/api';
 
+const EDIT_POST = 'editor/EDIT_POST';
+
+const GET_POST = 'editor/GET_POST';
 const WRITE_POST = 'editor/WRITE_POST';
 
 const INITIALIZE = 'editor/INITIALIZE';
 const CHANGE_INPUT = 'editor/CHANGE_INPUT';
 
+export const editPost = createAction(EDIT_POST, api.editPost);
+
+export const getPost = createAction(GET_POST, api.getPost);
 export const writePost = createAction(WRITE_POST, api.writePost);
 
 export const initialize = createAction(INITIALIZE);
@@ -33,6 +39,15 @@ export default handleActions({
         onSuccess: (state, action) => {
             const { _id } = action.payload.data;
             return state.set('postId', _id);
+        }
+    }),
+    ...pender({
+        type: GET_POST,
+        onSuccess: (state, action) => {
+            const { title, tags, body } = action.payload.data;
+            return state.set('title', title)
+                        .set('markdown', body)
+                        .set('tags', tags.join(','));
         }
     })
 }, initialState)

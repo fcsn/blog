@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="871a2c75-b6f0-43cc-b641-89d5420ee0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../blog-frontend/src/containers/common/HeaderContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/common/PageTemplate/PageTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/common/PageTemplate/PageTemplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/containers/editor/EditorHeaderContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/containers/editor/EditorHeaderContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/lib/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/lib/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/store/modules/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/store/modules/editor.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
