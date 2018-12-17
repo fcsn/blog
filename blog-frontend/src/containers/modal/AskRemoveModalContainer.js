@@ -4,13 +4,26 @@ import { bindActionCreators } from 'redux';
 import * as baseActions from 'store/modules/base';
 import * as postActions from 'store/modules/post';
 import AskRemoveModal from 'components/modal/AskRemoveModal';
+import { withRouter } from "react-router-dom";
 
 class AskRemoveModalContainer extends Component {
     handleCancel = () => {
+        const { BaseActions } = this.props;
+        BaseActions.hideModal('remove');
     }
 
-    handleConfirm = () => {
+    handleConfirm = async () => {
+        const { BaseActions, PostActions, history, match } = this.props;
+        const { id } = match.params;
+        try {
+            await PostActions.removePost(id);
+            BaseActions.hideModal('remove');
+            history.push('/');
+        } catch (e) {
+            console.log(e);
+        }
     }
+
     render() {
         const { visible } = this.props;
         const { handleCancel, handleConfirm } = this;
@@ -32,5 +45,5 @@ export default connect(
         BaseActions: bindActionCreators(baseActions, dispatch),
         PostActions: bindActionCreators(postActions, dispatch)
     })
-)(AskRemoveModalContainer);
+)(withRouter(AskRemoveModalContainer));
 
