@@ -32,17 +32,19 @@ class EditorHeaderContainer extends Component {
         try {
             const { id } = queryString.parse(location.search);
             if (id) {
+                console.log(22)
                 await EditorActions.editPost({id, ...post});
                 history.push(`/post/${id}`);
                 return;
             }
             await EditorActions.writePost(post);
+            history.push(`/post/${this.props.postId}`)
         } catch (e) {
             console.log(e);
         }
     }
 
-    render() {
+    render () {
         const { handleGoBack, handleSubmit } = this;
         const { id } = queryString.parse(this.props.location.search);
         return (
