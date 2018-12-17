@@ -27,8 +27,8 @@ renderMarkdown = () => {
     }
     this.setState({
         html: marked(markdown, {
-            breaks: true, // 일반 엔터로 새 줄 입력
-            sanitize: true // 마크다운 내부 html 무시
+            breaks: true,
+            sanitize: true
         })
     });
 }
@@ -36,14 +36,12 @@ renderMarkdown = () => {
 constructor(props) {
     super(props);
     const { markdown } = props;
-    // 서버사이드 렌더링에서도 마크다운 처리가 되도록 constructor 쪽에서도 구현합니다.
     this.state = {
         html: markdown ? marked(props.markdown, { breaks: true, sanitize: true }) : ''
 }
 }
 
 componentDidUpdate(prevProps, prevState) {
-    // markdown 값이 변경되면 renderMarkdown을 호출합니다.
     if(prevProps.markdown !== this.props.markdown) {
         this.renderMarkdown();
     }

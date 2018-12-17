@@ -9,6 +9,7 @@
     "immutable": "^4.0.0-rc.12",
     "include-media": "^1.4.9",
     "marked": "^0.5.2",
+    "moment": "^2.23.0",
     "node-sass": "^4.10.0",
     "open-color": "^1.6.3",
     "prismjs": "^1.15.0",

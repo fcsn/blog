@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="871a2c75-b6f0-43cc-b641-89d5420ee0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../blog-frontend/src/containers/editor/EditorHeaderContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-frontend/src/lib/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-frontend/src/containers/post/Post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/pages/EditorPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/pages/EditorPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/store/modules/editor.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/store/modules/editor.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/common/MarkdownRender/MarkdownRender.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/common/MarkdownRender/MarkdownRender.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/editor/EditorPane/EditorPane.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/editor/EditorPane/EditorPane.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/post/PostBody/PostBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/post/PostBody/PostBody.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/post/PostInfo/PostInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/post/PostInfo/PostInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/lib/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/lib/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/pages/PostPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/pages/PostPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/store/modules/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/store/modules/post.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -114,8 +118,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="842" />
-    <option name="width" value="838" />
+    <option name="x" value="1122" />
+    <option name="width" value="558" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -124,7 +128,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,6 +139,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,17 +180,18 @@
       <workItem from="1544869101150" duration="6220000" />
       <workItem from="1544947334293" duration="5168000" />
       <workItem from="1544956344943" duration="597000" />
+      <workItem from="1545004557114" duration="306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15635000" />
+    <option name="totallyTimeSpent" value="15941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23809524" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24114774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />

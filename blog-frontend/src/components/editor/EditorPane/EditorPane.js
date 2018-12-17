@@ -14,77 +14,6 @@ import 'codemirror/lib/codemirror.css';
 import 'codemirror/theme/monokai.css';
 
 class EditorPane extends React.Component {
-
-//     editor = null
-//     codeMirror = null
-//     cursor = null
-//
-//     initializeEditor = () => {
-//         this.codeMirror = CodeMirror(this.editor, {
-//             mode: 'markdown',
-//             theme: 'monokai',
-//             lineNumbers: true,
-//             lineWrapping: true
-//         });
-//         this.codeMirror.on('change', this.handleChangeMarkdown);
-//     }
-//
-//     handleChange = (e) => {
-//         const { onChangeInput } = this.props;
-//         const { value, name } = e.target;
-//         onChangeInput({ name, value });
-//     }
-//
-//     handleChangeMarkdown = (doc) => {
-//         const { onChangeInput } = this.props;
-//         this.cursor = doc.getCursor();
-//         onChangeInput({
-//             name: 'markdown',
-//             value: doc.getValue()
-//         })
-//     }
-//
-//     componentDidUpdate(prevProps, prevState) {
-//         if(prevProps.markdown !== this.props.markdown) {
-//             const { codeMirror, cursor } = this;
-//             if(!codeMirror) return;
-//             codeMirror.setValue(this.props.markdown);
-//             if(!cursor) return;
-//             codeMirror.setCursor(cursor);
-//         }
-//     }
-//
-//     componentDidMount () {
-//         this.initializeEditor();
-//     }
-//
-//     render() {
-//         const { handleChange } = this;
-//         const { title, tags } = this.props;
-//
-//         return (
-//             <div className={cx('editor-pane')}>
-//                 <input className={cx('title')}
-//                        placeholder="제목을 입력하세요"
-//                        name='title'
-//                        value={title}
-//                        onChange={handleChange}/>
-//                 <div className={cx('code-editor')} ref={ref => this.editor = ref}></div>
-//                 <div className={cx('tags')}>
-//                     <div className={cx('description')}>태그</div>
-//                     <input name='tags'
-//                            value={tags}
-//                            onChange={handleChange}
-//                            placeholder="태그를 입력하세요 (쉼표로 구분)"/>
-//             </div>
-//             </div>
-//         );
-//     }
-// }
-//
-// export default EditorPane;
-
-
     editor = null // 에디터 ref
     codeMirror = null // CodeMirror 인스턴스
     cursor = null // 에디터의 텍스트 cursor 위치
@@ -114,7 +43,7 @@ class EditorPane extends React.Component {
         this.cursor = doc.getCursor(); // 텍스트 cursor 위치 저장
         onChangeInput({
             name: 'markdown',
-        value: doc.getValue()
+            value: doc.getValue()
     });
     }
 
@@ -150,9 +79,9 @@ class EditorPane extends React.Component {
             <div className={cx('description')}>태그</div>
             <input
                 name='tags'
-            placeholder="태그를 입력하세요 (쉼표로 구분)"
-             value={tags}
-             onChange={handleChange}
+                placeholder="태그를 입력하세요 (쉼표로 구분)"
+                value={tags}
+                onChange={handleChange}
         />
     </div>
     </div>
