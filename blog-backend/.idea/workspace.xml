@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="871a2c75-b6f0-43cc-b641-89d5420ee0de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../blog-frontend/src/containers/post/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blog-frontend/src/containers/list/ListContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/common/MarkdownRender/MarkdownRender.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/common/MarkdownRender/MarkdownRender.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/editor/EditorPane/EditorPane.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/editor/EditorPane/EditorPane.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/post/PostBody/PostBody.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/post/PostBody/PostBody.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/post/PostInfo/PostInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/post/PostInfo/PostInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/list/PostList/PostList.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/list/PostList/PostList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-frontend/src/lib/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/lib/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/pages/PostPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/pages/PostPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/store/modules/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/store/modules/post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/pages/ListPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/pages/ListPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/store/modules/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/store/modules/list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
