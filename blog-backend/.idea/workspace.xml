@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="871a2c75-b6f0-43cc-b641-89d5420ee0de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../blog-frontend/src/containers/common/HeaderContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/common/PageTemplate/PageTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/common/PageTemplate/PageTemplate.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/api/posts/posts.ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="52" column="11" lean-forward="true" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+            <state relative-caret-position="257">
+              <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -110,7 +112,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1122" />
     <option name="width" value="558" />
     <option name="height" value="1050" />
@@ -173,20 +175,20 @@
       <workItem from="1544869101150" duration="6220000" />
       <workItem from="1544947334293" duration="5168000" />
       <workItem from="1544956344943" duration="597000" />
-      <workItem from="1545004557114" duration="1988000" />
+      <workItem from="1545004557114" duration="2667000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17623000" />
+    <option name="totallyTimeSpent" value="18302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="810" y="0" width="870" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24114774" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49591836" weight="0.24033816" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5040816" side_tool="true" weight="0.24033816" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -265,8 +267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/api/posts/posts.ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="52" column="11" lean-forward="true" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
+        <state relative-caret-position="257">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
         </state>
       </provider>
     </entry>
