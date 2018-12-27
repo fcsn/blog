@@ -14,7 +14,7 @@ class ListContainer extends React.Component {
         });
     }
 
-    componentDidMount() {
+    componentDidMount () {
         this.getPostList();
     }
 

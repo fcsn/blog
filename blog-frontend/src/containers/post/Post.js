@@ -15,7 +15,7 @@ class Post extends React.Component {
         }
     }
 
-    componentDidMount() {
+    componentDidMount () {
         this.initialize();
     }
 
