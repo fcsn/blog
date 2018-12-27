@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89335cb4-175a-4979-bd9a-dc943b7e9a86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../blog-backend/src/api/auth/auth.ctrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../blog-backend/src/api/auth/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-backend/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-backend/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-backend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-backend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-backend/node_modules/.yarn-integrity" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-backend/node_modules/.yarn-integrity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-backend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-backend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-backend/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-backend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-backend/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/editor/EditorHeaderContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/editor/EditorHeaderContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/list/ListContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/list/ListContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/post/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/post/Post.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-backend/src/api/posts/posts.ctrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-backend/src/api/posts/posts.ctrl.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
