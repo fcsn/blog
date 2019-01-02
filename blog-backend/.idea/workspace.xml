@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="871a2c75-b6f0-43cc-b641-89d5420ee0de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/lib/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/lib/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/store/modules/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/store/modules/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/common/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/common/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/containers/common/FooterContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/containers/common/FooterContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/containers/editor/EditorHeaderContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/containers/editor/EditorHeaderContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/containers/modal/LoginModalContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/containers/modal/LoginModalContainer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,20 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/api/posts/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="406">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/api/auth/auth.ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            <state relative-caret-position="58">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -41,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/api/auth/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="232">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -50,8 +53,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/api/posts/posts.ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="678">
-              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="3886">
+              <caret line="134" selection-start-line="134" selection-end-line="134" />
             </state>
           </provider>
         </entry>
@@ -76,6 +79,8 @@
       <find>MongoClient</find>
       <find>update</find>
       <find>logged</find>
+      <find>(child</find>
+      <find>123</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -98,7 +103,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1680" />
+    <option name="x" value="842" />
+    <option name="width" value="838" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -107,6 +113,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,7 +156,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,18 +218,27 @@
       <workItem from="1545712012607" duration="124000" />
       <workItem from="1545831763449" duration="393000" />
       <workItem from="1545832236609" duration="468000" />
-      <workItem from="1545876533441" duration="3777000" />
+      <workItem from="1545876533441" duration="3841000" />
+      <workItem from="1545961479751" duration="585000" />
+      <workItem from="1545962403697" duration="100000" />
+      <workItem from="1545962520354" duration="1494000" />
+      <workItem from="1545977253910" duration="2279000" />
+      <workItem from="1546003682523" duration="549000" />
+      <workItem from="1546083758842" duration="904000" />
+      <workItem from="1546152389276" duration="386000" />
+      <workItem from="1546351748892" duration="811000" />
+      <workItem from="1546403898527" duration="499000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36645000" />
+    <option name="totallyTimeSpent" value="44316000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49591836" visible="true" weight="0.26702833" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49591836" visible="true" weight="0.26702833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5040816" side_tool="true" weight="0.24033816" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -237,7 +252,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Quokka" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35510203" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Python Console" order="13" />
@@ -282,6 +297,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/api/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -289,38 +311,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/api/posts/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="34" column="37" lean-forward="true" selection-start-line="34" selection-start-column="37" selection-end-line="34" selection-end-column="37" />
+        <state relative-caret-position="406">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/api/auth/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/auth/auth.ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="232">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/api/posts/posts.ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="3886">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/posts/index.js">
+    <entry file="file://$PROJECT_DIR$/src/api/auth/auth.ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="58">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
         </state>
       </provider>
     </entry>
