@@ -4,10 +4,6 @@
     <list default="true" id="871a2c75-b6f0-43cc-b641-89d5420ee0de" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../blog-frontend/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/components/common/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/components/common/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/containers/common/FooterContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/containers/common/FooterContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/containers/editor/EditorHeaderContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/containers/editor/EditorHeaderContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../blog-frontend/src/containers/modal/LoginModalContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/../blog-frontend/src/containers/modal/LoginModalContainer.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,20 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/api/auth/auth.ctrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <state relative-caret-position="232">
+              <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/api/auth/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -102,10 +98,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="842" />
-    <option name="width" value="838" />
-    <option name="height" value="1050" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="1438" />
+    <option name="y" value="23" />
+    <option name="width" value="242" />
+    <option name="height" value="939" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -113,7 +110,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -156,6 +152,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -228,17 +225,25 @@
       <workItem from="1546152389276" duration="386000" />
       <workItem from="1546351748892" duration="811000" />
       <workItem from="1546403898527" duration="499000" />
+      <workItem from="1546488330833" duration="11000" />
+      <workItem from="1546517212417" duration="625000" />
+      <workItem from="1546566141223" duration="1104000" />
+      <workItem from="1546683794140" duration="404000" />
+      <workItem from="1546690491108" duration="282000" />
+      <workItem from="1546777454161" duration="349000" />
+      <workItem from="1546842857737" duration="537000" />
+      <workItem from="1547044596650" duration="653000" />
+      <workItem from="1547125921854" duration="19000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44316000" />
+    <option name="totallyTimeSpent" value="48300000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49591836" visible="true" weight="0.26702833" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49591836" visible="true" weight="0.018083183" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5040816" side_tool="true" weight="0.24033816" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -252,7 +257,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Quokka" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.35510203" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19591837" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Python Console" order="13" />
@@ -318,10 +323,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/auth/index.js">
+    <entry file="file://$PROJECT_DIR$/src/api/auth/auth.ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -332,10 +337,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/api/auth/auth.ctrl.js">
+    <entry file="file://$PROJECT_DIR$/src/api/auth/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="232">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
